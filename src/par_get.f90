@@ -550,6 +550,7 @@ subroutine read_namelist
 !------------------------------------------------------------------------                                     
 
 ! Uniaxial compression experiment.
+! M.G. : Modify here to load mask 
       if ((nx == 100) .and. (ny == 250)) then
          !Make mask:
          do i = 0, nx+1
